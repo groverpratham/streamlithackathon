@@ -1,6 +1,8 @@
 section[data-testid="stSidebar"] {
     background-color: #1f1f2e;
     padding-top: 30px;
+    width: 80px !important; /* Thinner sidebar */
+    min-width: 80px !important;
 }
 
 .sidebar-logo {
