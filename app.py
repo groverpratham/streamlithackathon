@@ -13,7 +13,7 @@ with open("Style.css") as f:
 
 # Sidebar
 with st.sidebar:
-    logo = Image.open("etl_logo.png")
+    logo = Image.open("etl_logo1.png")
     st.image(logo, width=80, output_format="PNG", use_container_width=False)
     st.markdown("<div class='sidebar-title'>ETL Test Case Generator</div>", unsafe_allow_html=True)
 
@@ -61,4 +61,5 @@ if uploaded_script and uploaded_schema:
     )
 else:
     st.info("Upload both files to start.")
+
 
