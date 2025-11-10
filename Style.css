@@ -1,0 +1,37 @@
+section[data-testid="stSidebar"] {
+    background-color: #1f1f2e;
+    padding-top: 30px;
+}
+
+.sidebar-logo {
+    width: 80px;
+    margin-left: 25px;
+    margin-bottom: 40px;
+}
+
+.sidebar-title {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.top-header {
+    background-color: #f37a00;
+    padding: 16px 24px;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+.upload-box {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
